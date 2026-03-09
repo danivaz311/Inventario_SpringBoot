@@ -32,7 +32,7 @@ public class ProductoService {
         return repository.save(producto);
     }
 
-    public List<Producto> listarPorCategoria(String categoria) {
-        return repository.findByCategoria(categoria);
+    public List<Producto> listarPorCategoria(String nombreCategoria) {
+        return repository.findByCategoriaNombre(nombreCategoria);
     }
 }

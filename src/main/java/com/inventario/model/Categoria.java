@@ -7,7 +7,7 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Producto {
+public class Categoria {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,11 +15,5 @@ public class Producto {
 
     private String nombre;
 
-    @ManyToOne //Indicador de relacion (muchos prods. a 1 cat.)
-    @JoinColumn(name = "categoria_id") //indica quien sera la FK
-    private Categoria categoria;
-
-    private Double precio;
-
-    private Integer stock;
+    private String descripcion;
 }
