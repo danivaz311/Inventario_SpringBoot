@@ -7,7 +7,7 @@
 
 /* Tipografía y color de fondo de la página */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Georgia', 'Times New Roman', serif;
     background-color: #f4f4f9;
     color: #333;
     display: flex;
@@ -19,7 +19,7 @@ body {
 
 /* Clase 1: Estilos del encabezado */
 .encabezado-principal {
-    background-color: #2c3e50;
+    background-color: #ab1577;
     color: #ecf0f1;
     padding: 2.5rem 1rem;
     text-align: center;
@@ -27,7 +27,7 @@ body {
 
 /* Estilos de navegación */
 .navegacion {
-    background-color: #34495e;
+    background-color:#ab1577b8;
     padding: 1rem;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .btn-color {
-    background-color: #e67e22;
+    background-color:   #bc22e6;
 }
 
 .btn-color:hover {
@@ -92,7 +92,7 @@ body {
 
 /* Estilos del pie de página */
 .pie-pagina {
-    background-color: #2c3e50;
+    background-color:#ab1577;
     color: #bdc3c7;
     text-align: center;
     padding: 1.5rem;
